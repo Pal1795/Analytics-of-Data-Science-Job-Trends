@@ -1,12 +1,12 @@
 # Analytics-of-Data-Science-Job-Trends
 
-**Project Overview**
+**Project Overview:**
 
 This project explores the current trends in the Data Science job market, focusing on key aspects such as job roles, salary trends, geographic distribution, and opportunities for entry-level and associate roles. The analysis aims to provide insights into the most promising sectors, top-paying companies, and in-demand job positions, which is particularly valuable for graduate students looking to enter the Data Science field.
 
 Using web scraping techniques and data analysis, this project provides a thorough examination of the Data Science job landscape by analyzing job postings scraped from LinkedIn. The goal is to help job seekers identify high-paying industries and companies, while also guiding entry-level professionals on the best sectors to target for growth opportunities.
 
-**Objective**
+**Objective:**
 
 1. Analyze Current Trends
  - Examine overall trends in job roles, industries, and geographic distribution across various states in the U.S.
@@ -21,7 +21,7 @@ Using web scraping techniques and data analysis, this project provides a thoroug
 
  - Identify high-paying companies and roles that are lucrative for early-career professionals.
 
-**Data Extraction - Web Scraping**
+**Data Extraction - Web Scraping:**
 
 The primary source of data for this analysis comes from LinkedIn job postings. Using BeautifulSoup, a Python web scraping library, we extracted over 732 job postings for roles such as Data Scientist, Data Engineer, and Data Analyst. The key job details scraped include:
 
@@ -29,7 +29,7 @@ The primary source of data for this analysis comes from LinkedIn job postings. U
 
 This web scraping process was automated for efficiency and scalability, enabling us to gather valuable insights from a large set of job postings.
 
-**Libraries Used for Web Scraping**
+**Libraries Used for Web Scraping:**
 
  - BeautifulSoup (for HTML parsing)
 
@@ -39,7 +39,7 @@ This web scraping process was automated for efficiency and scalability, enabling
 
  - Html2TextTransformer (for converting HTML content to clean text)
 
-**Data Pre-processing**
+**Data Pre-processing:**
 
 1. Addressing Missing Values
  - Identified and handled missing data in key columns such as salary, location, and company name.
@@ -59,7 +59,7 @@ This web scraping process was automated for efficiency and scalability, enabling
 6. Industry Grouping
  - Industries were grouped based on the U.S. Bureau of Labor Statistics (BLS) classification to standardize the analysis.
 
-**Data Analysis**
+**Data Analysis:**
 
  - After preprocessing the data, we performed the following analysis:
 
@@ -71,7 +71,7 @@ This web scraping process was automated for efficiency and scalability, enabling
 
  4. Graduate Insights: Focused on identifying entry-level positions, their required qualifications, and high-paying job roles targeted at recent graduates.
 
-**Role of AI in Web Scraping**
+**Role of AI in Web Scraping:**
 
 AI and machine learning techniques were incorporated to enhance the efficiency and scalability of web scraping. Here's how AI played a key role:
 
@@ -87,7 +87,7 @@ AI and machine learning techniques were incorporated to enhance the efficiency a
 4. Scalability
  - The use of AI techniques made it possible to handle large-scale web scraping, which can be extended to other job boards and platforms in the future.
 
-**Key Insights**
+**Key Insights:**
 
  - Data Science Job Demand: Data Scientists and Data Engineers are in high demand, especially in tech-heavy regions like California, New York, and Texas.
 
